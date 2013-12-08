@@ -24,5 +24,5 @@ Consignes :
 
 6. utiliser le mode colonne css3 http://www.w3.org/TR/css3-multicol/ pour distribuer sur 4 colonnes, passer en inline-block pour les navigateurs non-compatibles
 
-7. La navigation passe en drop-down
+DONE 7. La navigation passe en drop-down
 
