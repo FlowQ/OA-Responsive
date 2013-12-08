@@ -1998,5 +1998,12 @@ if (typeof jQuery === "undefined") { throw new Error("Bootstrap requires jQuery"
       $spy.affix(data)
     })
   })
+ $(".navbar-nav li").click(function() {
+ $(".navbar-nav li").each(function(){
+ $(this).removeClass("active");
+ });
+ $(this).addClass("active");
+ });
+
 
 }(jQuery);
