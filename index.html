@@ -40,7 +40,7 @@
 
     <div role="main" class="row">
       <aside class="col-md-12 col-lg-3">
-        <ul>
+        <ul class="test">
           <li>Videos
             <ul>
               <li>All</li>
@@ -52,7 +52,7 @@
               <li>Leadership</li>
               <li>Poverty</li>
               <li>Special Education</li>
-            </ul>
+           </ul>
           </li>
           <li>Communities</li>
           <li>Courses</li>
@@ -60,14 +60,27 @@
         </ul>
       </aside>
       <article class="col-md-12 col-lg-9">
-        <video preload="metadata" controls>
+        <video  id= "test" preload="metadata" controls>
           <source src="http://clips.vorwaerts-gmbh.de/big_buck_bunny.mp4" type="video/mp4" />
           <source src="http://clips.vorwaerts-gmbh.de/big_buck_bunny.webm" type="video/webm" />
           <source src="http://clips.vorwaerts-gmbh.de/big_buck_bunny.ogv" type="video/ogg" />
           <p>Change your browser!</p>
       </video>
+      <br>
+      <progress id='p' max='100' value='0'><span>0</span>% played</progress>
+
       </article>
     </div>
+    <script> 
+      var video = document.getElementById('test');
+      var pBar = document.getElementById('p');
+      video.addEventListener('timeupdate', function() {
+      var percent = Math.floor((100 / video.duration) * video.currentTime);
+      pBar.value = percent;
+      pBar.getElementsByTagName('span')[0].innerHTML = percent;
+      }, false);
+    </script>
+
     <!-- jQuery (necessary for Bootstrap's JavaScript plugins) -->
     <script src="https://code.jquery.com/jquery.js"></script>
     <!-- Include all compiled plugins (below), or include individual files as needed -->
