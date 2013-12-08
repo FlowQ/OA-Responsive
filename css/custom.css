@@ -6,6 +6,20 @@ article {
 	background:rgba(123,199,229,0.9);
 }
 
+.droite {
+	float: right;
+}
+@media screen and (max-width: 480px) {
+	.droite {
+		float: left;
+
+	}
+}
+.droite li {
+	padding: 5px;	
+}
+
+
 @media screen and (max-width: 768px) {
 	aside ul li ul li  {
 		background-color: red;
