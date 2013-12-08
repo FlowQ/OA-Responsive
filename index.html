@@ -35,22 +35,20 @@
           <li><a href="#">Store</a></li>
         </ul>
         <ul class="nav navbar-nav droite">
-          <li><button type="button" class="btn btn-default btn-lg">
+          <div class="btn-group">
+              <button type="button" class="btn btn-default">
                 <span class="glyphicon glyphicon-cog"></span>
               </button>
-          </li>
-          <li><button type="button" class="btn btn-default btn-lg">
+              <button type="button" class="btn btn-default">
                 <span class="glyphicon glyphicon-list"></span>
               </button>
-          </li>
-          <li><button type="button" class="btn btn-default btn-lg">
+              <button type="button" class="btn btn-default">
                 <span class="glyphicon glyphicon-envelope"></span>
               </button>
-          </li>
-          <li><button type="button" class="btn btn-default btn-lg">
+              <button type="button" class="btn btn-default">
                 <span class="glyphicon glyphicon-search"></span>
               </button>
-          </li>
+          </div>
         </ul>
       </div><!-- /.navbar-collapse -->
     </nav>
@@ -58,7 +56,7 @@
 
     <div role="main" class="row">
       <aside class="col-md-12 col-lg-3">
-        <ul class="test">
+        <ul>
           <li>Videos
             <ul>
               <li>All</li>
@@ -70,7 +68,6 @@
               <li>Leadership</li>
               <li>Poverty</li>
               <li>Special Education</li>
-              
            </ul>
           </li>
           <li>Communities</li>
@@ -84,14 +81,9 @@
           <source src="http://clips.vorwaerts-gmbh.de/big_buck_bunny.webm" type="video/webm" />
           <source src="http://clips.vorwaerts-gmbh.de/big_buck_bunny.ogv" type="video/ogg" />
           <p>Change your browser!</p>
-          <object type="application/x-shockwave-flash" data="js/player.swf"
-          width="500" height="304">
-            <param name="allowscriptaccess" value="always">
-            <param name="flashvars" value="file=http://clips.vorwaerts-gmbh.de/big_buck_bunny.mp4">
-      </video>
+        </video>
       <br>
-      <progress id='p' max='100' value='0'><span>0</span>% played</progress>
-
+        <p>Progression : <progress id='p' max='100' value='0'><span>0</span>% played</progress></p>
       </article>
     </div>
     <script> 
