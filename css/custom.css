@@ -39,6 +39,11 @@ article {
         }
 }
 
+
+progress{
+	width:60%;
+}
+
 @media screen and (max-width: 900px) {
 	audio, canvas, video {
 		display: inline-block;
