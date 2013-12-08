@@ -5,6 +5,7 @@ aside {
 article {
 	background:rgba(123,199,229,0.9);
 }
+
 @media screen and (max-width: 768px) {
 	aside ul li ul li  {
 		background-color: red;
@@ -12,15 +13,21 @@ article {
 		width: 24%;
 	}
 
-	aside ul {
-	/*	-moz-column-count:4; 
-		-webkit-column-count:4; 
-		column-count:4;*/
-		display: inline-block;
-		background-color: grey;
-		width: 100%;
-		padding: 0;
+	aside ul li ul {
+		background-color: yellow;
 	}
+
+	/*
+
+	aside ul {
+		-moz-column-count:4; 
+		-webkit-column-count:4; 
+		column-count:4;
+		display: inline-block;
+		width: 100%;
+		background-color: grey;
+		padding: 0;
+	}*/
 }
 @media screen and (max-width: 900px) {
 	audio, canvas, video {
