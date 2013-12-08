@@ -12,13 +12,13 @@ Consignes :
 
 2. Inutile de représenter la pastille de notification
 
-3. L’entrée “Videos” est un élément de liste, contenant une liste d’éléments “Air”,”Assessment”,etc..
+3. L’entrée “Videos” est un élément de liste, contenant une liste d’éléments All,”Assessment”,etc..
 
 4. La vidéo est jouable sur tous les navigateurs, prévoir un fallback en cas d’absence de la fonction HTML5
 
 (option) ++ pour l’activation de la vidéo au click en *.js
 
-5. Utiliser la balise <progress> et ses attributs value, min et max, pour représenter avancée des morceaux.
+5. Utiliser la balise <progress> et ses attributs value, min et max, pour représenter l'avancée des morceaux.
 
 (option) ++ pour une implémentation dynamique de la balise audio (bouton play/pause + progression de la timeline)
 
