@@ -23,7 +23,9 @@ article {
 		padding: 0;
 	}
 }
-
+progress{
+	width:60%;
+}
 @media screen and (max-width: 900px) {
 	audio, canvas, video {
 		display: inline-block;
