@@ -6,13 +6,16 @@ article {
 	background:rgba(123,199,229,0.9);
 }
 @media screen and (max-width: 768px) {
-	ul li ul li  {
+	aside ul li ul li  {
 		background-color: red;
 		display: inline-block;
 		width: 24%;
 	}
 
-	ul li ul {
+	aside ul {
+		-moz-column-count:4; /* Firefox */
+		-webkit-column-count:4; /* Safari and Chrome */
+		column-count:4;
 		display: inline-block;
 		background-color: grey;
 		width: 100%;
