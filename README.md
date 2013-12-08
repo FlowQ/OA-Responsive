@@ -8,9 +8,9 @@ OA-Responsive
 =============
 Consignes :
 
-1. L’item de navigation courant contient une classe .active qui lui donne son background
+DONE 1. L’item de navigation courant contient une classe .active qui lui donne son background
 
-2. Inutile de représenter la pastille de notification
+DONE 2. Inutile de représenter la pastille de notification
 
 3. L’entrée “Videos” est un élément de liste, contenant une liste d’éléments All,”Assessment”,etc..
 
