@@ -5,7 +5,6 @@ aside {
 article {
 	background:rgba(123,199,229,0.9);
 }
-
 .droite {
 	float: right;
 }
@@ -14,7 +13,6 @@ article {
 	padding-top: 10px;
 
 }
-
 @media screen and (max-width: 550px) {
 	.droite {
 		float: left;
@@ -23,17 +21,18 @@ article {
 		padding: 2px;
 	}
 }
+aside ul li ul li  {
+        padding-left: 10px;
+}
 
 @media screen and (max-width: 768px) {
         aside ul li ul li  {
-                background-color: red;
                 display: inline-block;
                 width: 24%;
+                padding: 0px;
         }
-
         aside ul li ul {
                 display: inline-block;
-                background-color: grey;
                 width: 100%;
                 padding: 0;
         }
@@ -43,14 +42,12 @@ article {
 progress{
 	width:60%;
 }
-
 @media screen and (max-width: 900px) {
 	audio, canvas, video {
 		display: inline-block;
 		width: 90%;
 	}
 }
-
 article p {
 	font-weight: bold;
 }
